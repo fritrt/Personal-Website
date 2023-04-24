@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 50px;
+  margin-left: 5px;
+  transition: 0.6s, ease-in;
+  font-family: Arial;
+  font-size: x-large;
+  box-shadow: none;
+
+}
+.row{
+  max-width: fit-content
+}
+.avatar{
+  inset-inline-start: ;
+}
+.navbar{
+  background-color: transparent;
+  box-decoration-break: inherit;
+  font-size: large;
+  inset-inline-end: 
+  margin-left: 5px;
+  font-family: Arial;
+}
+
+p {
+  width: 600px;
+}
+
+p a{
+  text-decoration: underline;
+  color: inherit;
+}
+
+.xmlns{
+  background-color: transparent;
+  background-image: transparent;
+}

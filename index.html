@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0", maximum-scale="1.0">
+ 
+  <!--CSS styling-->
+  <link rel="stylesheet" type="text/css" href="css style.css">
+  <link rel="stylesheet" href="dark mode.css">
+  
+  <!--Bootstrap styling-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+  <!--Javascript files-->
+
+  <script>
+    function changeMemoji() {
+      var memoji = document.getElementById("memoji");
+      memoji.src = "happy.png";
+    }
+    
+    function resetMemoji() {
+      var memoji = document.getElementById("memoji");
+      memoji.src = "memoji.png";
+    }
+  </script>
+
+
+  <title>About - Grace Olos</title>
+
+</head>
+
+<body>
+<div class="container-fluid" data-nav="logo-left-menu-right">
+  <div class="avatar">
+  <a title="Grace Olos">
+    <img id="memoji" src="memoji.png" alt="Grace-avatar" height="50" onmouseover="changeMemoji()" onmouseout="resetMemoji()">
+  </a>
+  </div>
+  
+  <div class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: transparent;" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+     
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav"> 
+          <li>
+            <a class="navbar-brand" href="Blog.html">Blog</a> 
+          </li>
+          <li class="nav-item active">
+           <a class="nav-link" href="Projects.html">Projects</a>  
+          </li>
+          <li>
+            <nav class="navbar">
+              <button id="dark-mode-btn" onclick="toggleDarkMode()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 16 16" style="background-color: white;">
+                  <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z"/>
+                </svg>
+              </button>
+            </nav>
+            <script>
+              function toggleDarkMode() {
+                document.body.classList.toggle('dark-mode');
+              }
+            </script>                       
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </div> 
+</div>
+<br>
+
+  <div style="margin-top: 30px">
+    <h2>Hello, World!</h2>
+    <p style="width: 600px; margin-top: 30px;" >
+      I'm an aspiring software developer based in the Philippines, currently honing more skills as I look for my breakthrough job in tech.
+    </p>
+  </div>
+
+  <div>
+    <h3 id ="about">About</h3>
+  </div>
+
+  <div>
+    <p style="width: 600px;">Meet Grace, a structural engineer with 7 years experience. In 2022, she began learning how to code, which sparked a newfound passion. Along with coding, Grace also discovered the benefits of meditation and intentional living, which have helped her find balance and clarity in both her personal and professional life.</p>
+    <p style="width: 600px;">Outside work, I'm a mum of 2 <a href=https://www.instagram.com/_the_oranges target="_blank">ginger tabbies.</a> I like listening to music and cooking too.</p>
+  </div>
+
+  <div>
+    <h3 id ="contact-details">Say Hi</h3>
+  </div>      
+  <div>
+    <p style="width: 600px;">If you want to connect or just say hi, just <a href="Contact details.html" target="_blank">send me a message</a>
+    <br>You can also find me on <a href="https://www.linkedin.com/in/graceolos" style = underline target="_blank">LinkedIn,</a><a href="https://www.instagram.com/graciiiier" target="_blank"> Instagram</a> and <a href="https://www.facebook.com/gracie.olos" target="_blank">Facebook.</a></p>
+  </div>
+  
+</div>
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+  }
+</script>
+</body>
+</html>
